@@ -1,0 +1,224 @@
+(pcb "D:\Users\Seema\Documents\KiCad\AC dimmer\zero cross detector.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(2012-01-19 BZR 3256)-stable")
+  )
+  (resolution mil 10)
+  (unit mil)
+  (structure
+    (layer Front
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer Back
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  1574.8 -1378  1574.8 -2165.4  3149.6 -2165.4  3149.6 -1378
+            1574.8 -1378)
+    )
+    (plane GND (polygon Back 0  2362.2 -2165.4  2362.2 -1378  1574.8 -1378  1574.8 -2165.4))
+    (via "Via[0-1]_35:25_mil" "Via[0-1]_35:0_mil")
+    (rule
+      (width 20)
+      (clearance 20.1)
+      (clearance 20.1 (type default_smd))
+      (clearance 5 (type smd_smd))
+    )
+  )
+  (placement
+    (component "SIL-3"
+      (place P1 1791.3 -2066.9 front 180 (PN CONNECTOR_3))
+    )
+    (component "SM0805-HAND"
+      (place R1 1732.3 -1929.1 front 0 (PN 10K))
+      (place C1 1968.5 -1929.1 front 180 (PN C))
+    )
+    (component DFS
+      (place U2 2381.9 -1633.9 front 90 (PN DF1504S))
+    )
+    (component "6-SMD"
+      (place U1 1870.1 -1633.9 front 90 (PN 4N25))
+    )
+    (component 2106SSL
+      (place P2 2913.4 -1968.5 front 180 (PN AC_IN))
+    )
+    (component SM1210L
+      (place R2 2775.6 -1535.4 front 0 (PN 30K))
+      (place R3 2539.4 -1968.5 front 0 (PN 30K))
+    )
+  )
+  (library
+    (image "SIL-3"
+      (outline (path signal 12  -150 -50  -150 50))
+      (outline (path signal 12  -150 50  150 50))
+      (outline (path signal 12  150 50  150 -50))
+      (outline (path signal 12  150 -50  -150 -50))
+      (outline (path signal 12  -50 50  -50 -50))
+      (pin Rect[A]Pad_66.9x66.9_mil 1 -100 0)
+      (pin Round[A]Pad_66.9_mil 2 0 0)
+      (pin Round[A]Pad_66.9_mil 3 100 0)
+    )
+    (image "SM0805-HAND"
+      (outline (path signal 5  -28 -30  -68 -30))
+      (outline (path signal 5  -68 -30  -68 30))
+      (outline (path signal 5  -68 30  -28 30))
+      (outline (path signal 5  28 30  68 30))
+      (outline (path signal 5  68 30  68 -30))
+      (outline (path signal 5  68 -30  28 -30))
+      (pin Rect[T]Pad_45x55_mil 1 -42.5 0)
+      (pin Rect[T]Pad_45x55_mil 2 42.5 0)
+    )
+    (image DFS
+      (outline (path signal 15  -167.3 128  167.3 128))
+      (outline (path signal 15  167.3 128  167.3 -128))
+      (outline (path signal 15  167.3 -128  -167.3 -128))
+      (outline (path signal 15  -167.3 -128  -167.3 128))
+      (pin Rect[T]Pad_55x70_mil 2 100 -172)
+      (pin Rect[T]Pad_55x70_mil 1 -100 -172)
+      (pin Rect[T]Pad_55x70_mil 4 -100 172)
+      (pin Rect[T]Pad_55x70_mil 3 100 172)
+    )
+    (image "6-SMD"
+      (outline (path signal 15  177.2 118.1  177.2 -118.1))
+      (outline (path signal 15  -177.2 118.1  -177.2 -118.1))
+      (outline (path signal 15  -177.2 -118.1  177.2 -118.1))
+      (outline (path signal 15  -177.2 118.1  177.2 118.1))
+      (outline (path signal 15  -90.3 -59.1  -91.7 -67.7  -95.6 -75.4  -101.8 -81.6  -109.5 -85.5
+            -118.1 -86.9  -126.7 -85.5  -134.4 -81.6  -140.6 -75.4  -144.5 -67.7
+            -145.9 -59.1  -144.5 -50.5  -140.6 -42.8  -134.4 -36.6  -126.7 -32.7
+            -118.1 -31.3  -109.5 -32.7  -101.8 -36.6  -95.6 -42.8  -91.7 -50.5))
+      (pin Rect[T]Pad_70.1x59.8_mil 1 -100 -177.6)
+      (pin Rect[T]Pad_70.1x59.8_mil 2 0 -177.6)
+      (pin Rect[T]Pad_70.1x59.8_mil 3 100 -177.6)
+      (pin Rect[T]Pad_70.1x59.8_mil 6 -100 177.6)
+      (pin Rect[T]Pad_70.1x59.8_mil 5 0 177.6)
+      (pin Rect[T]Pad_70.1x59.8_mil 4 100 177.6)
+    )
+    (image 2106SSL
+      (outline (path signal 15  -39.4 39.4  -39.4 -39.4))
+      (outline (path signal 15  -118.1 39.4  -118.1 -39.4))
+      (outline (path signal 15  118.1 39.4  118.1 -39.4))
+      (outline (path signal 15  39.4 39.4  39.4 -39.4))
+      (outline (path signal 15  196.9 157.5  -196.9 157.5))
+      (outline (path signal 15  -196.9 157.5  -196.9 -157.5))
+      (outline (path signal 15  -196.9 -157.5  196.9 -157.5))
+      (outline (path signal 15  196.9 -157.5  196.9 157.5))
+      (pin Rect[T]Pad_122x96.5_mil 2 78.7 -82.7)
+      (pin Rect[T]Pad_122x96.5_mil 1 -78.7 -82.7)
+      (pin Rect[T]Pad_122x96.5_mil 1@1 -78.7 82.7)
+      (pin Rect[T]Pad_122x96.5_mil 2@1 78.7 82.7)
+    )
+    (image SM1210L
+      (outline (path signal 5  -108 -65  -108.3 -67.1  -109.3 -69.1  -110.9 -70.7  -112.9 -71.7
+            -115 -72  -117.1 -71.7  -119.1 -70.7  -120.7 -69.1  -121.7 -67.1
+            -122 -65  -121.7 -62.9  -120.7 -60.9  -119.1 -59.3  -117.1 -58.3
+            -115 -58  -112.9 -58.3  -110.9 -59.3  -109.3 -60.9  -108.3 -62.9))
+      (outline (path signal 5  35 -60  110 -60))
+      (outline (path signal 5  110 -60  110 60))
+      (outline (path signal 5  110 60  35 60))
+      (outline (path signal 5  -30 60  -110 60))
+      (outline (path signal 5  -110 60  -110 -60))
+      (outline (path signal 5  -110 -60  -30 -60))
+      (pin Rect[T]Pad_70x110_mil 1 -70 0)
+      (pin Rect[T]Pad_70x110_mil 2 70 0)
+    )
+    (padstack Round[A]Pad_66.9_mil
+      (shape (circle Front 66.9))
+      (shape (circle Back 66.9))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_45x55_mil
+      (shape (rect Front -22.5 -27.5 22.5 27.5))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_55x70_mil
+      (shape (rect Front -27.5 -35 27.5 35))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_66.9x66.9_mil
+      (shape (rect Front -33.45 -33.45 33.45 33.45))
+      (shape (rect Back -33.45 -33.45 33.45 33.45))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_70x110_mil
+      (shape (rect Front -35 -55 35 55))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_70.1x59.8_mil
+      (shape (rect Front -35.05 -29.9 35.05 29.9))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_122x96.5_mil
+      (shape (rect Front -61 -48.25 61 48.25))
+      (attach off)
+    )
+    (padstack "Via[0-1]_35:25_mil"
+      (shape (circle Front 35))
+      (shape (circle Back 35))
+      (attach off)
+    )
+    (padstack "Via[0-1]_35:0_mil"
+      (shape (circle Front 35))
+      (shape (circle Back 35))
+      (attach off)
+    )
+  )
+  (network
+    (net GND
+      (pins P1-2 U1-4 C1-2)
+    )
+    (net "N-000005"
+      (pins P2-2 P2-2@1 R3-2)
+    )
+    (net "N-000006"
+      (pins P2-1 P2-1@1 R2-2)
+    )
+    (net "N-000008"
+      (pins U2-1 R3-1)
+    )
+    (net "N-000009"
+      (pins U2-2 R2-1)
+    )
+    (net "N-000010"
+      (pins U2-3 U1-1)
+    )
+    (net "N-000011"
+      (pins U2-4 U1-2)
+    )
+    (net VCC
+      (pins P1-1 R1-2 C1-1)
+    )
+    (net ZEROCROSS
+      (pins P1-3 R1-1 U1-5)
+    )
+    (class kicad_default "" GND "N-000005" "N-000006" "N-000008" "N-000009"
+      "N-000010" "N-000011" VCC ZEROCROSS
+      (circuit
+        (use_via Via[0-1]_35:25_mil)
+      )
+      (rule
+        (width 20)
+        (clearance 20.1)
+      )
+    )
+    (class AC
+      (circuit
+        (use_via Via[0-1]_35:25_mil)
+      )
+      (rule
+        (width 16)
+        (clearance 10.1)
+      )
+    )
+  )
+  (wiring
+  )
+)

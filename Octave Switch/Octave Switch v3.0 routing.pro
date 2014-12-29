@@ -1,0 +1,35 @@
+update=2014-06-11 12:55:42 PM
+last_client=pcbnew
+[pcbnew]
+version=1
+LastNetListRead=Octave Switch v3.0.net
+UseCmpFile=1
+PadDrill=1.250000000000
+PadDrillOvalY=1.250000000000
+PadSizeH=2.000000000000
+PadSizeV=2.000000000000
+PcbTextSizeV=1.500000000000
+PcbTextSizeH=1.500000000000
+PcbTextThickness=0.300000000000
+ModuleTextSizeV=1.500000000000
+ModuleTextSizeH=1.500000000000
+ModuleTextSizeThickness=0.150000000000
+SolderMaskClearance=0.020000000000
+SolderMaskMinWidth=0.000000000000
+DrawSegmentWidth=0.250000000000
+BoardOutlineThickness=0.150000000000
+ModuleOutlineThickness=0.150000000000
+[pcbnew/libraries]
+LibDir=
+LibName1=sockets
+LibName2=connect
+LibName3=discret
+LibName4=pin_array
+LibName5=divers
+LibName6=libcms
+LibName7=display
+LibName8=valves
+LibName9=led
+LibName10=dip_sockets
+LibName11=E:/Documents/KiCad/MyLibs/MyModules/synth_footprints
+LibName12=E:/Documents/KiCad/MyModules/SM0805-HAND

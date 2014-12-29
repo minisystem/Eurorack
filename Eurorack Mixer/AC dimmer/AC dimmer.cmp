@@ -1,0 +1,94 @@
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 3/1/2013 3:09:34 PM
+
+BeginCmp
+TimeStamp = /512E592D;
+Reference = C1;
+ValeurCmp = 100n;
+IdModule  = SM0805-HAND;
+EndCmp
+
+BeginCmp
+TimeStamp = /512E5114;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /512E57F3;
+Reference = P1;
+ValeurCmp = CONN_3X2;
+IdModule  = CONN-2X3-0100;
+EndCmp
+
+BeginCmp
+TimeStamp = /512E57FF;
+Reference = P2;
+ValeurCmp = CONN_3X2;
+IdModule  = CONN-2X3-0100;
+EndCmp
+
+BeginCmp
+TimeStamp = /512E51B4;
+Reference = P3;
+ValeurCmp = AC_IN;
+IdModule  = 2106SSL;
+EndCmp
+
+BeginCmp
+TimeStamp = /512E5178;
+Reference = P4;
+ValeurCmp = LOAD;
+IdModule  = 2106SSL;
+EndCmp
+
+BeginCmp
+TimeStamp = /512E5105;
+Reference = R1;
+ValeurCmp = 330;
+IdModule  = SM0805-HAND;
+EndCmp
+
+BeginCmp
+TimeStamp = /512E50FD;
+Reference = R2;
+ValeurCmp = 470;
+IdModule  = SM0805-HAND;
+EndCmp
+
+BeginCmp
+TimeStamp = /512E4DF2;
+Reference = R3;
+ValeurCmp = 1K;
+IdModule  = SM0805-HAND;
+EndCmp
+
+BeginCmp
+TimeStamp = /512ED782;
+Reference = U1;
+ValeurCmp = 742G17;
+IdModule  = -SOT23-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /512E5323;
+Reference = U2;
+ValeurCmp = 74LS74;
+IdModule  = -SO14;
+EndCmp
+
+BeginCmp
+TimeStamp = /512E4AB1;
+Reference = U3;
+ValeurCmp = MOC3021;
+IdModule  = 6-SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /512E4A58;
+Reference = U4;
+ValeurCmp = TRIAC;
+IdModule  = DPAK2;
+EndCmp
+
+EndListe

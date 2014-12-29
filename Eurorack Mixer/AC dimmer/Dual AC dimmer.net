@@ -1,0 +1,215 @@
+# EESchema Netlist Version 1.1 created  3/25/2013 11:40:32 AM
+(
+ ( /512E592D SM0805-HAND C1 100n
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /5140FFF2 SM0805-HAND C2 100n
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /5145F80B SM0805-HAND C3 100n
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /5149D756 -153CLV-0505 C4 CP_US
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /5135705A LED-0805 D1 LED
+  ( 1 N-000028 )
+  ( 2 GND )
+ )
+ ( /512E5114 LED-0805 D2 LED
+  ( 1 N-000014 )
+  ( 2 GND )
+ )
+ ( /512E57F3 CONN-2X3-0100 P1 CONN_3X2
+  ( 1 GND )
+  ( 2 CLOCK )
+  ( 3 GND )
+  ( 4 LATCH )
+  ( 5 GND )
+  ( 6 DATA_IN )
+ )
+ ( /512E57FF CONN-2X3-0100 P2 CONN_3X2
+  ( 1 GND )
+  ( 2 CLOCK_OUT )
+  ( 3 GND )
+  ( 4 LATCH_OUT )
+  ( 5 GND )
+  ( 6 DATA_OUT )
+ )
+ ( /512E51B4 2106SSL P3 AC_IN
+  ( 1 AC1 )
+  ( 2 AC2 )
+ )
+ ( /51357058 2106SSL P4 LOAD
+  ( 1 AC2 )
+  ( 2 /AC4 )
+ )
+ ( /512E5178 2106SSL P5 LOAD
+  ( 1 AC2 )
+  ( 2 /AC3 )
+ )
+ ( /51427F5C MTA156X02 P6 DC_IN
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /5135705B SM0805-HAND R1 330
+  ( 1 N-000028 )
+  ( 2 N-000025 )
+ )
+ ( /512E5105 SM0805-HAND R2 330
+  ( 1 N-000014 )
+  ( 2 N-000026 )
+ )
+ ( /5135705C SM0805-HAND R3 470
+  ( 1 N-000025 )
+  ( 2 N-000027 )
+ )
+ ( /512E50FD SM0805-HAND R4 470
+  ( 1 N-000026 )
+  ( 2 N-000015 )
+ )
+ ( /5135705E SM0805-HAND R5 1K
+  ( 1 N-000023 )
+  ( 2 AC1 )
+ )
+ ( /512E4DF2 SM0805-HAND R6 1K
+  ( 1 N-000019 )
+  ( 2 AC1 )
+ )
+ ( /512ED782 -SOT23-6 U1 742G17
+  ( 1 LATCH )
+  ( 2 GND )
+  ( 3 CLOCK )
+  ( 4 CLOCK_OUT )
+  ( 5 VCC )
+  ( 6 LATCH_OUT )
+ )
+ ( /51357056 -SO14 U2 74LS74
+  ( 1 VCC )
+  ( 2 DATA_TO_B )
+  ( 3 CLOCK )
+  ( 4 VCC )
+  ( 5 DATA_OUT )
+  ( 6 ? )
+  ( 7 GND )
+  ( 8 ? )
+  ( 9 N-000025 )
+  ( 10 VCC )
+  ( 11 LATCH )
+  ( 12 DATA_OUT )
+  ( 13 VCC )
+  ( 14 VCC )
+ )
+ ( /512E5323 -SO14 U3 74LS74
+  ( 1 VCC )
+  ( 2 DATA_IN )
+  ( 3 CLOCK )
+  ( 4 VCC )
+  ( 5 DATA_TO_B )
+  ( 6 ? )
+  ( 7 GND )
+  ( 8 ? )
+  ( 9 N-000026 )
+  ( 10 VCC )
+  ( 11 LATCH )
+  ( 12 DATA_TO_B )
+  ( 13 VCC )
+  ( 14 VCC )
+ )
+ ( /513BAF23 6-SMD U4 MOC3023
+  ( 1 N-000027 )
+  ( 2 GND )
+  ( 3 ? )
+  ( 4 N-000024 )
+  ( 5 ? )
+  ( 6 N-000023 )
+ )
+ ( /512E4AB1 6-SMD U5 MOC3023
+  ( 1 N-000015 )
+  ( 2 GND )
+  ( 3 ? )
+  ( 4 N-000017 )
+  ( 5 ? )
+  ( 6 N-000019 )
+ )
+ ( /51357060 DPAK2 U6 TRIAC
+  ( 1 /AC4 )
+  ( 2 AC1 )
+  ( 3 N-000024 )
+ )
+ ( /512E4A58 DPAK2 U7 TRIAC
+  ( 1 /AC3 )
+  ( 2 AC1 )
+  ( 3 N-000017 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ CP*
+ SM*
+ C?
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ R_*
+$endlist
+$component R2
+ R?
+ R_*
+$endlist
+$component R3
+ R?
+ R_*
+$endlist
+$component R4
+ R?
+ R_*
+$endlist
+$component R5
+ R?
+ R_*
+$endlist
+$component R6
+ R?
+ R_*
+$endlist
+$endfootprintlist
+}

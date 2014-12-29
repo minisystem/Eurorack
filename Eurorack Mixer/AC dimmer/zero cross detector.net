@@ -1,0 +1,67 @@
+# EESchema Netlist Version 1.1 created  3/25/2013 12:22:36 PM
+(
+ ( /515078E7 SM0805-HAND C1 C
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /51327990 SIL-3 P1 CONNECTOR_3
+  ( 1 VCC )
+  ( 2 GND )
+  ( 3 ZEROCROSS )
+ )
+ ( /512E5EB6 2106SSL P2 AC_IN
+  ( 1 N-000006 )
+  ( 2 N-000005 )
+ )
+ ( /5132788B SM0805-HAND R1 10K
+  ( 1 ZEROCROSS )
+  ( 2 VCC )
+ )
+ ( /512E5E96 SM1210L R2 30K
+  ( 1 N-000009 )
+  ( 2 N-000006 )
+ )
+ ( /512E5E9E SM1210L R3 30K
+  ( 1 N-000008 )
+  ( 2 N-000005 )
+ )
+ ( /512E5E1C 6-SMD U1 4N25
+  ( 1 N-000010 )
+  ( 2 N-000011 )
+  ( 3 ? )
+  ( 4 GND )
+  ( 5 ZEROCROSS )
+  ( 6 ? )
+ )
+ ( /512E5E1B DFS U2 DF1504S
+  ( 1 N-000008 )
+  ( 2 N-000009 )
+  ( 3 N-000010 )
+  ( 4 N-000011 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component P1
+ PAD_3
+ BORNIER_3*
+$endlist
+$component R1
+ R?
+ R_*
+$endlist
+$component R2
+ R?
+ R_*
+$endlist
+$component R3
+ R?
+ R_*
+$endlist
+$endfootprintlist
+}

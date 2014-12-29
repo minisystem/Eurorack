@@ -1,0 +1,157 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2014-05-21 1:35:02 PM
+
+BeginCmp
+TimeStamp = /53684183;
+Reference = C1;
+ValeurCmp = 100n;
+IdModule  = SM0805-HAND;
+EndCmp
+
+BeginCmp
+TimeStamp = /537CE896;
+Reference = C2;
+ValeurCmp = CP_US;
+IdModule  = CAP_POL_5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /537CE89C;
+Reference = C3;
+ValeurCmp = CP_US;
+IdModule  = CAP_POL_5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /536306F4;
+Reference = J1;
+ValeurCmp = JACK_MONO_SW;
+IdModule  = PJ-301B-JACK;
+EndCmp
+
+BeginCmp
+TimeStamp = /5363086F;
+Reference = J2;
+ValeurCmp = JACK_MONO_SW;
+IdModule  = PJ-301B-JACK;
+EndCmp
+
+BeginCmp
+TimeStamp = /536307FF;
+Reference = J3;
+ValeurCmp = JACK_MONO_SW;
+IdModule  = PJ-301B-JACK;
+EndCmp
+
+BeginCmp
+TimeStamp = /536301C3;
+Reference = J4;
+ValeurCmp = JACK_MONO_SW;
+IdModule  = PJ-301B-JACK;
+EndCmp
+
+BeginCmp
+TimeStamp = /53630880;
+Reference = J5;
+ValeurCmp = JACK_MONO_SW;
+IdModule  = PJ-301B-JACK;
+EndCmp
+
+BeginCmp
+TimeStamp = /5363085D;
+Reference = J6;
+ValeurCmp = JACK_MONO_SW;
+IdModule  = PJ-301B-JACK;
+EndCmp
+
+BeginCmp
+TimeStamp = /5363023A;
+Reference = P1;
+ValeurCmp = 50K;
+IdModule  = RD901F-ALPHA-POT;
+EndCmp
+
+BeginCmp
+TimeStamp = /536306EE;
+Reference = P2;
+ValeurCmp = 50K;
+IdModule  = RD901F-ALPHA-POT;
+EndCmp
+
+BeginCmp
+TimeStamp = /5366C5B9;
+Reference = P3;
+ValeurCmp = 50K;
+IdModule  = RD901F-ALPHA-POT;
+EndCmp
+
+BeginCmp
+TimeStamp = /53630A2C;
+Reference = P4;
+ValeurCmp = 50K;
+IdModule  = RD901F-ALPHA-POT;
+EndCmp
+
+BeginCmp
+TimeStamp = /536301B4;
+Reference = P5;
+ValeurCmp = 50K;
+IdModule  = RD901F-ALPHA-POT;
+EndCmp
+
+BeginCmp
+TimeStamp = /5366C4B9;
+Reference = P6;
+ValeurCmp = 50K;
+IdModule  = RD901F-ALPHA-POT;
+EndCmp
+
+BeginCmp
+TimeStamp = /53630543;
+Reference = PWR1;
+ValeurCmp = CONN_5X2;
+IdModule  = CONN_0100_2X5_10;
+EndCmp
+
+BeginCmp
+TimeStamp = /536309B2;
+Reference = R1;
+ValeurCmp = 10K;
+IdModule  = SM0805-HAND;
+EndCmp
+
+BeginCmp
+TimeStamp = /5366C422;
+Reference = R2;
+ValeurCmp = 100K;
+IdModule  = SM0805-HAND;
+EndCmp
+
+BeginCmp
+TimeStamp = /53630A3B;
+Reference = R3;
+ValeurCmp = 10K;
+IdModule  = SM0805-HAND;
+EndCmp
+
+BeginCmp
+TimeStamp = /5366C428;
+Reference = R4;
+ValeurCmp = 100K;
+IdModule  = SM0805-HAND;
+EndCmp
+
+BeginCmp
+TimeStamp = /5366C3BE;
+Reference = U1;
+ValeurCmp = TL072-;
+IdModule  = SOIC-8-JRL;
+EndCmp
+
+BeginCmp
+TimeStamp = /53630129;
+Reference = VCA1;
+ValeurCmp = CONN_12;
+IdModule  = CONN_0100_X_12;
+EndCmp
+
+EndListe

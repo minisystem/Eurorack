@@ -1,0 +1,264 @@
+
+(session "zero cross detector.ses"
+  (base_design "zero cross detector.dsn")
+  (placement
+    (resolution mil 10)
+    (component "SIL-3"
+      (place P1 17913 -20669 front 180)
+    )
+    (component "SM0805-HAND"
+      (place R1 17323 -19291 front 0)
+      (place C1 19685 -19291 front 180)
+    )
+    (component DFS
+      (place U2 23819 -16339 front 90)
+    )
+    (component "6-SMD"
+      (place U1 18701 -16339 front 90)
+    )
+    (component 2106SSL
+      (place P2 29134 -19685 front 180)
+    )
+    (component SM1210L
+      (place R2 27756 -15354 front 0)
+      (place R3 25394 -19685 front 0)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution mil 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "(2012-01-19 BZR 3256)-stable")
+    )
+    (library_out 
+      (padstack "Via[0-1]_35:25_mil"
+        (shape
+          (circle Front 350 0 0)
+        )
+        (shape
+          (circle Back 350 0 0)
+        )
+        (attach off)
+      )
+      (padstack "Via[0-1]_35:0_mil"
+        (shape
+          (circle Front 350 0 0)
+        )
+        (shape
+          (circle Back 350 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net GND
+        (wire
+          (path Front 200
+            18732 -19291
+            18642 -19201
+          )
+        )
+        (wire
+          (path Front 200
+            19260 -19291
+            18732 -19291
+          )
+        )
+        (via "Via[0-1]_35:25_mil" 18642 -19201
+        )
+        (wire
+          (path Front 200
+            17605 -15261
+            17527 -15339
+          )
+        )
+        (wire
+          (path Front 200
+            16925 -15339
+            17527 -15339
+          )
+        )
+        (via "Via[0-1]_35:25_mil" 17605 -15261
+        )
+      )
+      (net "N-000005"
+        (wire
+          (path Front 200
+            28347 -18858
+            28347 -19644
+          )
+        )
+        (wire
+          (path Front 200
+            27520 -19685
+            27561 -19644
+            28347 -19644
+          )
+        )
+        (wire
+          (path Front 200
+            27520 -19685
+            28305 -19685
+            28347 -19727
+          )
+        )
+        (wire
+          (path Front 200
+            26094 -19685
+            27520 -19685
+          )
+        )
+        (wire
+          (path Front 200
+            28347 -20512
+            28347 -19727
+          )
+        )
+      )
+      (net "N-000006"
+        (wire
+          (path Front 200
+            29921 -20512
+            29921 -18858
+          )
+        )
+        (wire
+          (path Front 200
+            29921 -18858
+            29921 -18073
+          )
+        )
+        (wire
+          (path Front 200
+            28456 -15354
+            28456 -16608
+            29921 -18073
+          )
+        )
+      )
+      (net "N-000008"
+        (wire
+          (path Front 200
+            25539 -17339
+            25539 -17917
+          )
+        )
+        (wire
+          (path Front 200
+            24694 -19685
+            24694 -18762
+            25539 -17917
+          )
+        )
+      )
+      (net "N-000009"
+        (wire
+          (path Front 200
+            25539 -15339
+            26192 -15339
+          )
+        )
+        (wire
+          (path Front 200
+            27056 -15354
+            26207 -15354
+            26192 -15339
+          )
+        )
+      )
+      (net "N-000010"
+        (wire
+          (path Front 200
+            22099 -15339
+            22099 -15917
+          )
+        )
+        (wire
+          (path Front 200
+            20477 -17339
+            21079 -17339
+          )
+        )
+        (wire
+          (path Front 200
+            21079 -17339
+            21079 -17861
+            21136 -17918
+            22596 -17918
+            22752 -17762
+            22752 -16570
+            22099 -15917
+          )
+        )
+      )
+      (net "N-000011"
+        (wire
+          (path Front 200
+            22099 -17339
+            22099 -16761
+          )
+        )
+        (wire
+          (path Front 200
+            20477 -16339
+            21677 -16339
+            22099 -16761
+          )
+        )
+      )
+      (net VCC
+        (wire
+          (path Front 200
+            20110 -19291
+            20110 -19869
+          )
+        )
+        (wire
+          (path Front 200
+            20110 -19869
+            19076 -19869
+            18913 -20032
+          )
+        )
+        (wire
+          (path Front 200
+            18913 -20669
+            18913 -20032
+          )
+        )
+        (wire
+          (path Front 200
+            17748 -19291
+            18489 -20032
+            18913 -20032
+          )
+        )
+      )
+      (net ZEROCROSS
+        (wire
+          (path Front 200
+            16898 -19291
+            16898 -20654
+            16913 -20669
+          )
+        )
+        (wire
+          (path Front 200
+            17527 -16339
+            17527 -18032
+            16898 -18661
+            16898 -19291
+          )
+        )
+        (wire
+          (path Front 200
+            16925 -16339
+            17527 -16339
+          )
+        )
+      )
+    )
+  )
+)

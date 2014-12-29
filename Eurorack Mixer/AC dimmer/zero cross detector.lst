@@ -1,0 +1,24 @@
+eeschema (2013-03-31 BZR 4008)-stable  >> Creation date: 2013-04-22 11:25:11 AM
+#Cmp ( order = Reference )
+| C1         C           
+| P1         CONNECTOR_3 
+| P2         AC IN       
+| R1         10K         
+| R2         30K         
+| R3         30K         
+| U1         4N25        
+| U2         DF1504S     
+#End Cmp
+
+#Cmp ( order = Value )
+| C            C1        
+| CONNECTOR_3  P1        
+| AC IN        P2        
+| 10K          R1        
+| 30K          R2        
+| 30K          R3        
+| 4N25         U1        
+| DF1504S      U2        
+#End Cmp
+
+#End List

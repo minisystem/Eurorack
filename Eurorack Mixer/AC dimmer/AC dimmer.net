@@ -1,0 +1,184 @@
+# EESchema Netlist Version 1.1 created  3/4/2013 10:27:06 PM
+(
+ ( /512ED782 $noname  U1 742G17 {Lib=742G17}
+  (    1 LATCH )
+  (    2 GND )
+  (    3 CLOCK )
+  (    4 CLOCK_OUT )
+  (    5 VCC )
+  (    6 LATCH_OUT )
+ )
+ ( /512E592D $noname  C1 100n {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /512E57FF $noname  P2 CONN_3X2 {Lib=CONN_3X2}
+  (    1 VCC )
+  (    2 CLOCK_OUT )
+  (    3 DATA_OUT )
+  (    4 GND )
+  (    5 LATCH_OUT )
+  (    6 GND )
+ )
+ ( /512E57F3 $noname  P1 CONN_3X2 {Lib=CONN_3X2}
+  (    1 VCC )
+  (    2 CLOCK )
+  (    3 DATA_IN )
+  (    4 GND )
+  (    5 LATCH )
+  (    6 GND )
+ )
+ ( /512E5323 $noname  U2 74LS74 {Lib=74LS74}
+  (    1 VCC )
+  (    2 DATA_IN )
+  (    3 CLOCK )
+  (    4 VCC )
+  (    5 DATA_OUT )
+  (    6 ? )
+  (    7 GND )
+  (    8 ? )
+  (    9 N-000020 )
+  (   10 VCC )
+  (   11 LATCH )
+  (   12 DATA_OUT )
+  (   13 VCC )
+  (   14 VCC )
+ )
+ ( /512E51B4 $noname  P3 AC_IN {Lib=CONN_2}
+  (    1 /AC1 )
+  (    2 /AC2 )
+ )
+ ( /512E5178 $noname  P4 LOAD {Lib=CONN_2}
+  (    1 /AC2 )
+  (    2 /AC3 )
+ )
+ ( /512E5114 $noname  D1 LED {Lib=LED}
+  (    1 N-000012 )
+  (    2 GND )
+ )
+ ( /512E5105 $noname  R1 330 {Lib=R_US}
+  (    1 N-000012 )
+  (    2 N-000020 )
+ )
+ ( /512E50FD $noname  R2 470 {Lib=R_US}
+  (    1 N-000020 )
+  (    2 N-000010 )
+ )
+ ( /512E4DF2 $noname  R3 1K {Lib=R_US}
+  (    1 N-000011 )
+  (    2 /AC1 )
+ )
+ ( /512E4AB1 $noname  U3 MOC3021 {Lib=OPTO-TRIAC}
+  (    1 N-000010 )
+  (    2 GND )
+  (    3 ? )
+  (    4 N-000007 )
+  (    5 ? )
+  (    6 N-000011 )
+ )
+ ( /512E4A58 $noname  U4 TRIAC {Lib=TRIAC}
+  (    1 /AC3 )
+  (    2 /AC1 )
+  (    3 N-000007 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ R_*
+$endlist
+$component R2
+ R?
+ R_*
+$endlist
+$component R3
+ R?
+ R_*
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "DATA IN" "DATA IN"
+ U2 2
+ P1 3
+Net 2 "GND" "GND"
+ P2 4
+ C1 2
+ U3 2
+ U1 2
+ D1 2
+ P2 6
+ U2 7
+ P1 4
+ P1 6
+Net 3 "VCC" "VCC"
+ C1 1
+ U2 4
+ U2 1
+ U2 13
+ U2 14
+ U2 10
+ U1 5
+ P2 1
+ P1 1
+Net 4 "CLOCK" "CLOCK"
+ U2 3
+ P1 2
+ U1 3
+Net 7 "" ""
+ U4 3
+ U3 4
+Net 10 "" ""
+ U3 1
+ R2 2
+Net 11 "" ""
+ U3 6
+ R3 1
+Net 12 "" ""
+ D1 1
+ R1 1
+Net 13 "/AC2" "AC2"
+ P4 1
+ P3 2
+Net 14 "DATA OUT" "DATA OUT"
+ U2 5
+ P2 3
+ U2 12
+Net 15 "LATCH" "LATCH"
+ U1 1
+ U2 11
+ P1 5
+Net 16 "LATCH OUT" "LATCH OUT"
+ P2 5
+ U1 6
+Net 17 "CLOCK OUT" "CLOCK OUT"
+ P2 2
+ U1 4
+Net 18 "/AC1" "AC1"
+ R3 2
+ P3 1
+ U4 2
+Net 19 "/AC3" "AC3"
+ U4 1
+ P4 2
+Net 20 "" ""
+ U2 9
+ R1 2
+ R2 1
+}
+#End

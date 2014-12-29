@@ -1,0 +1,262 @@
+Cmp-Mod V01 Created by Cvpcb (2014-05-28 BZR 4896)-product   date = 2014-06-03 11:04:53 PM
+
+BeginCmp
+TimeStamp = /52EA6BA1;
+Reference = C1;
+ValeurCmp = 100n;
+IdModule  = synth_footprints:SM0603-JRL;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EA7373;
+Reference = C2;
+ValeurCmp = 0.01μ;
+IdModule  = synth_footprints:SM0603-JRL;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EC40BB;
+Reference = C3;
+ValeurCmp = 100n;
+IdModule  = synth_footprints:SM0603-JRL;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E9D05C;
+Reference = C4;
+ValeurCmp = 100p;
+IdModule  = synth_footprints:SM0603-JRL;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E9E3E2;
+Reference = C5;
+ValeurCmp = 100n**;
+IdModule  = synth_footprints:SM0603-JRL;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EC5EB6;
+Reference = C6;
+ValeurCmp = 100n;
+IdModule  = synth_footprints:SM0603-JRL;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EC5EBC;
+Reference = C7;
+ValeurCmp = 100n;
+IdModule  = synth_footprints:SM0603-JRL;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EC3606;
+Reference = P1;
+ValeurCmp = CONN_10;
+IdModule  = synth:CONN_10X_0100_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EA6833;
+Reference = Q1;
+ValeurCmp = 2N3904;
+IdModule  = synth_footprints:SOT23-JRL;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EA83E9;
+Reference = Q2;
+ValeurCmp = DMMT3904;
+IdModule  = synth_footprints:SOT363-JRL;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EA83F8;
+Reference = Q3;
+ValeurCmp = DMMT3906;
+IdModule  = synth_footprints:SOT363-JRL;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E9DB05;
+Reference = R1;
+ValeurCmp = 120K;
+IdModule  = synth_footprints:SM0603-JRL;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EA68F1;
+Reference = R2;
+ValeurCmp = 100K;
+IdModule  = synth_footprints:SM0603-JRL;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EA6853;
+Reference = R3;
+ValeurCmp = 33K;
+IdModule  = synth_footprints:SM0603-JRL;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EA68F7;
+Reference = R4;
+ValeurCmp = 330K;
+IdModule  = synth_footprints:SM0603-JRL;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EA6840;
+Reference = R5;
+ValeurCmp = 22K;
+IdModule  = synth_footprints:SM0603-JRL;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EA6BBB;
+Reference = R6;
+ValeurCmp = 10K;
+IdModule  = synth_footprints:SM0603-JRL;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EA8929;
+Reference = R7;
+ValeurCmp = 39K*;
+IdModule  = synth_footprints:SM0603-JRL;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E9DCCB;
+Reference = R8;
+ValeurCmp = 39K*;
+IdModule  = synth_footprints:SM0603-JRL;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EA8356;
+Reference = R9;
+ValeurCmp = 2.2K;
+IdModule  = synth_footprints:SM0603-JRL;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EA835C;
+Reference = R10;
+ValeurCmp = 270K;
+IdModule  = synth_footprints:SM0603-JRL;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EA893B;
+Reference = R11;
+ValeurCmp = 2.2K;
+IdModule  = synth_footprints:SM0603-JRL;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EA8941;
+Reference = R12;
+ValeurCmp = 270K;
+IdModule  = synth_footprints:SM0603-JRL;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E9DCF4;
+Reference = R13;
+ValeurCmp = 150K;
+IdModule  = synth_footprints:SM0603-JRL;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EA7939;
+Reference = R14;
+ValeurCmp = 56K**;
+IdModule  = synth_footprints:SM0603-JRL;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E9DF52;
+Reference = R15;
+ValeurCmp = 2.2K;
+IdModule  = synth_footprints:SM0603-JRL;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E9DEFE;
+Reference = R16;
+ValeurCmp = 47K;
+IdModule  = synth_footprints:SM0603-JRL;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E9DD44;
+Reference = R17;
+ValeurCmp = 47K;
+IdModule  = synth_footprints:SM0603-JRL;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EA793F;
+Reference = R18;
+ValeurCmp = 91K;
+IdModule  = synth_footprints:SM0603-JRL;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E9DD38;
+Reference = R19;
+ValeurCmp = 47K;
+IdModule  = synth_footprints:SM0603-JRL;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E9DD3E;
+Reference = R20;
+ValeurCmp = 47K;
+IdModule  = synth_footprints:SM0603-JRL;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E9E466;
+Reference = R21;
+ValeurCmp = 1K;
+IdModule  = synth_footprints:SM0603-JRL;
+EndCmp
+
+BeginCmp
+TimeStamp = /537F6A7A;
+Reference = T1;
+ValeurCmp = 10K;
+IdModule  = synth:PVG3;
+EndCmp
+
+BeginCmp
+TimeStamp = /537F6F53;
+Reference = T2;
+ValeurCmp = 10K;
+IdModule  = synth:PVG3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E9DAA2;
+Reference = U1;
+ValeurCmp = CD4052;
+IdModule  = github-smd:TSSOP16;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EA6826;
+Reference = U2;
+ValeurCmp = NE555;
+IdModule  = synth_footprints:TSSOP8-JRL;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E9CC88;
+Reference = U3;
+ValeurCmp = TL074-;
+IdModule  = github-smd:TSSOP14;
+EndCmp
+
+EndListe
