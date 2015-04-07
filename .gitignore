@@ -1,0 +1,52 @@
+#.gitignore Eurorack Modules
+
+#ignore everything but relevent Eurorack module folders
+
+.hg/
+.hgignore
+4072 VCF motherboard PCB mount/
+4072 VCF motherboard/
+4072 VCF motherboard.mod
+Bug reports/
+Eurorack ADSR/
+Eurorack VCA/Motherboard/v1.1/
+HMSVF2A/
+HMVCO1c motherboard PCB mount/
+HMVCO1c motherboard/
+HMVCO1c/
+KiCad.rar
+LeuWebb.emp
+Matrix Computer Controller/
+Matrix Power Distribution Board/
+MyLibs/
+MyModules/
+Polysynth/
+Post CERN/
+Project Backup before CERN.zip
+Prophet 600 Spirit/
+QuickSilver-Clone/
+Roland 80017A clone/
+Roland JP-4 slider/
+Sample and Hold/
+THAT2180 VCA/
+VC ADSR/VC ADSR ADR trim.csv
+VCO one/
+gloomy.emp
+juno-chorus-clone-master/
+overcycler-master/
+picoVCO - corrected/CERN/_autosave-picoVCO-fix-3.pro
+picoVCO - corrected/CERN/_autosave-picoVCO-routing-fix2.pro
+picoVCO - corrected/CERN/_autosave-picoVCO.pro
+picoVCO - corrected/CERN/picoVCO-aborted-layout.pro
+picoVCO - corrected/CERN/picoVCO-old.pro
+picoVCO - corrected/CERN/picoVCO-routing.pro
+picoVCO/
+redite_head.emp
+redite_head_bigger.emp
+sys79.emp
+sys79.mod
+sys79_mirror.emp
+system79-neg.emp
+system79.emp
+system79.mod
+system79lines.emp

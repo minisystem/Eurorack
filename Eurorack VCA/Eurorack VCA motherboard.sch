@@ -31,7 +31,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:MySynthParts
 LIBS:Eurorack VCA motherboard-cache
-EELAYER 27 0
+EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -603,7 +603,7 @@ F 1 "50K" H 9650 5720 50  0000 C CNN
 F 2 "~" H 9650 5800 60  0000 C CNN
 F 3 "~" H 9650 5800 60  0000 C CNN
 	1    9650 5800
-	-1   0    0    -1  
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	9450 5800 9100 5800
@@ -629,7 +629,7 @@ F 1 "50K" H 4050 5500 50  0000 C CNN
 F 2 "~" H 4150 5400 60  0000 C CNN
 F 3 "~" H 4150 5400 60  0000 C CNN
 	1    4150 5400
-	-1   0    0    -1  
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3950 5400 3600 5400
